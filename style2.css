@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --font-mali: 'Mali', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+
+#header::after{
+    content: "";
+    top: 10vh;
+    position: absolute;
+    width: 100vw;
+    height: 10px;
+    animation: time 10s 0s linear;
+}
+
+@keyframes time{
+    0%{
+        background-color: green;
+        width: 100vw;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: red;
+        width: 0vw;
+    }
+}
+
+#header div{
+    width: 50%;
+}
+
+#logosim{
+    text-align: left;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+#logotxt{
+    font-size: 35px;
+    text-align: center;
+    font-family: var(--font-mali);
+    font-weight: 600;
+}
+
+#quest{
+    display: flex;
+    width: 100vw;
+    height: 44vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: var(--font-mali);
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#option{
+    display: flex;
+    flex-direction: column;
+    height: 44vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#option div{
+    text-align: center;
+    height: 100px;
+}
+
+#option button{
+    appearance: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0px;
+    font-family: var(--font-mali);
+}
