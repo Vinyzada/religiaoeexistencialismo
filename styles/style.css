@@ -10,54 +10,28 @@
     box-sizing: border-box;
 }
 
-#header{
-    display: flex;
-    flex-wrap: nowrap;
-    height: 10vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: space-around;
-    box-shadow: 0px 0px 10px 10px black;
-    color: white;
-    background-color: black;
-}
-
-#header div{
-    width: 50%;
-}
-
-#logosim{
-    text-align: left;
-    font-size: 60px;
-    text-shadow: 1px 1px 10px white;
-    margin-left: 20px;
-}
-
-#logotxt{
-    text-shadow: 1px 1px 10px white;
-    font-size: 35px;
-    text-align: center;
-    font-family: var(--font-mali);
-    font-weight: 600;
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #tittle{
     display: flex;
     width: 100vw;
-    height: 44vh;
+    height: 50vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
     font-family: var(--font-mali);
     font-size: 40px;
-    font-weight: 300;
-    text-shadow: 1px 0px 5px black;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 #btnstart{
     display: flex;
-    height: 44vh;
+    height: 50vh;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -69,11 +43,11 @@
     border: 1px solid black;
     padding: 5px;
     border-radius: 15px;
-    width: 200px;
+    width: 300px;
     color: white;
     box-shadow: 0px 0px 7px 3px black;
 
-    font-size: 30px;
+    font-size: 40px;
     font-family: var(--font-mali);
     text-transform: uppercase;
     font-weight: 300;
